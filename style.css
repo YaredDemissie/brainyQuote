@@ -1,0 +1,84 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+nav {
+    background-color: lightgray;
+    height : 3em;
+    font-family: arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    vertical-align: middle;
+}
+
+nav li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav li a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.back {
+    position: absolute;
+    left: 20px;
+}
+
+.forward {
+    position: absolute;
+    right: 20px;
+}
+
+#link a:link {
+  background-color: blue;
+  color: white;
+  text-decoration:none;
+  font-size:large;
+  position: absolute;
+  top: 1%;
+  left:25%;
+}
+
+#one {
+  width: 11em;
+  border: 5px blue solid;
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+#two {
+  width: 11em;
+  border: 5px green solid;
+  padding: 5px;
+  margin: 5px;
+  position: absolute;
+  top: 1px;
+  left: 40%;
+}
+
+#three {
+  width: 11em;
+  border: 5px orange solid;
+  padding: 5px;
+  margin: 5px;
+  position: absolute;
+  top: 1%;
+}
+
+#four {
+  width: 11em;
+  border: 5px yellow solid;
+  padding: 5px;
+  margin: 5px;
+  position: absolute;
+  top: 30%;
+}
